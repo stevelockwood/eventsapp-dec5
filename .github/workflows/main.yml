@@ -5,6 +5,7 @@ on:
 
 # *********************
 # TODO: Update the 3 variables below to match your region
+#
 env:
   AWS_REGION: us-east-2
   EKS_CLUSTER_NAME: awsuser111-eks-cluster
