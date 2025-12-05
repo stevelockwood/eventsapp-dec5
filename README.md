@@ -1,1 +1,2 @@
-# eventsapp-dec5
+# eventsappstart
+This is a simple events app
