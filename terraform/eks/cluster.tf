@@ -62,7 +62,7 @@ module "eks" {
 
   eks_managed_node_groups = {
     one = {
-      name = "${var.username}-node-group-1"
+      name = "${var.username}-n-grp-1"
 
       instance_types = ["t3.small"]
 
@@ -72,7 +72,7 @@ module "eks" {
     }
 
     two = {
-      name = "${var.username}-node-group-2"
+      name = "${var.username}-n-grp-2"
 
       instance_types = ["t3.small"]
 
